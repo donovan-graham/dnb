@@ -32,11 +32,15 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $(".img").fancybox({
+                autoPlay : true, //  slideshow will start after opening the first gallery item
+                playSpeed : 2500, // 3sec pause between changing next item
                 helpers: {
                     buttons: {
                         position: 'bottom', // 'top' or 'bottom'
                     }
-                }
+                },
+                nextSpeed: 850,
+                prevSpeed: 850,
             });
         });
     </script>
