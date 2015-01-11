@@ -1,61 +1,97 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Don and Beth's Wedding</title>
-    <meta name="description" content="Don and Beth's Wedding - 6 December 2014">
-    
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    
-    <!-- <link rel="stylesheet" href="./style/main.css" type="text/css" media="screen" /> -->
+  <title>Don and Beth's Wedding</title>
+  <meta name="description" content="Don and Beth's Wedding - 6 December 2014">
 
-    <!-- Add jQuery library -->
-    <script type="text/javascript" src="./js/jquery-1.10.1.min.js"></script>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+
+
+  <style>
+    html, body {
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    a {
+      color: #f2938d;
+    }
+    a:hover, a:visited {
+      color: #f2938d;
+    }
+
+    #logo {
+      text-align: center; 
+      margin-bottom: 40px; 
+    }
+
+    #gallery {
+      text-align: center;
+      margin-bottom: 40px; 
+    }
+
+    #credits {
+      color: #555;
+      text-align: center;
+      margin-bottom: 40px; 
+    }
+
+  </style>
+
+  <!-- <link rel="stylesheet" href="./style/main.css" type="text/css" media="screen" /> -->
+
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="./js/jquery-1.10.1.min.js"></script>
     <!--
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    -->
+  -->
 
-    <!-- Add mousewheel plugin (this is optional) -->
-    <script type="text/javascript" src="./js/jquery.mousewheel-3.0.6.pack.js"></script>
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="./js/jquery.mousewheel-3.0.6.pack.js"></script>
 
-    <!-- Add fancyBox -->
-    <link rel="stylesheet" href="./js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="./js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <!-- Add fancyBox -->
+  <link rel="stylesheet" href="./js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <script type="text/javascript" src="./js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
 
-    <!-- Optionally add helpers - button, thumbnail and/or media -->
-    <link rel="stylesheet" href="./js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="./js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <!-- Optionally add helpers - button, thumbnail and/or media -->
+  <link rel="stylesheet" href="./js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+  <script type="text/javascript" src="./js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".img").fancybox({
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".img").fancybox({
                 autoPlay : true, //  slideshow will start after opening the first gallery item
                 playSpeed : 2500, // 3sec pause between changing next item
                 helpers: {
-                    buttons: {
+                  buttons: {
                         position: 'bottom', // 'top' or 'bottom'
-                    }
-                },
-                nextSpeed: 850,
-                prevSpeed: 850,
-            });
-        });
-    </script>
+                      }
+                    },
+                    nextSpeed: 850,
+                    prevSpeed: 850,
+                  });
+    });
+  </script>
 
- </head>
+
+
+</head>
 <body>
- 
 
-<div id="logo" style="text-align: center; margin-bottom: 20px;">
+
+  <div id="logo">
     <img src="./img/dnb_logo.png" alt=""/>
-</div>
+  </div>
 
 
-<div id="gallery" style="text-align: center;">
-
+  <div id="gallery">
     <a class="img" rel="dnb_wedding_2014" href="./img/med/003.jpg"><img src="./img/low/003.jpg" alt=""/></a>
     <a class="img" rel="dnb_wedding_2014" href="./img/med/007.jpg"><img src="./img/low/007.jpg" alt=""/></a>
     <a class="img" rel="dnb_wedding_2014" href="./img/med/009.jpg"><img src="./img/low/009.jpg" alt=""/></a>
@@ -397,119 +433,136 @@
     <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_002.jpg"><img src="./img/low/studio_002.jpg" alt=""/></a>
     <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_003.jpg"><img src="./img/low/studio_003.jpg" alt=""/></a>
     <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_004.jpg"><img src="./img/low/studio_004.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_005.jpg"><img src="./img/low/studio_005.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_006.jpg"><img src="./img/low/studio_006.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_007.jpg"><img src="./img/low/studio_007.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_008.jpg"><img src="./img/low/studio_008.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_009.jpg"><img src="./img/low/studio_009.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_010.jpg"><img src="./img/low/studio_010.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_011.jpg"><img src="./img/low/studio_011.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_012.jpg"><img src="./img/low/studio_012.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_013.jpg"><img src="./img/low/studio_013.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_014.jpg"><img src="./img/low/studio_014.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_015.jpg"><img src="./img/low/studio_015.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_016.jpg"><img src="./img/low/studio_016.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_017.jpg"><img src="./img/low/studio_017.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_018.jpg"><img src="./img/low/studio_018.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_019.jpg"><img src="./img/low/studio_019.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_020.jpg"><img src="./img/low/studio_020.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_021.jpg"><img src="./img/low/studio_021.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_022.jpg"><img src="./img/low/studio_022.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_023.jpg"><img src="./img/low/studio_023.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_024.jpg"><img src="./img/low/studio_024.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_025.jpg"><img src="./img/low/studio_025.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_026.jpg"><img src="./img/low/studio_026.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_027.jpg"><img src="./img/low/studio_027.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_028.jpg"><img src="./img/low/studio_028.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_029.jpg"><img src="./img/low/studio_029.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_030.jpg"><img src="./img/low/studio_030.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_031.jpg"><img src="./img/low/studio_031.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_032.jpg"><img src="./img/low/studio_032.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_033.jpg"><img src="./img/low/studio_033.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_034.jpg"><img src="./img/low/studio_034.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_035.jpg"><img src="./img/low/studio_035.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_036.jpg"><img src="./img/low/studio_036.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_037.jpg"><img src="./img/low/studio_037.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_038.jpg"><img src="./img/low/studio_038.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_039.jpg"><img src="./img/low/studio_039.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_040.jpg"><img src="./img/low/studio_040.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_041.jpg"><img src="./img/low/studio_041.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_042.jpg"><img src="./img/low/studio_042.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_043.jpg"><img src="./img/low/studio_043.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_044.jpg"><img src="./img/low/studio_044.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_045.jpg"><img src="./img/low/studio_045.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_046.jpg"><img src="./img/low/studio_046.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_047.jpg"><img src="./img/low/studio_047.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_048.jpg"><img src="./img/low/studio_048.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_049.jpg"><img src="./img/low/studio_049.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_050.jpg"><img src="./img/low/studio_050.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_051.jpg"><img src="./img/low/studio_051.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_052.jpg"><img src="./img/low/studio_052.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_053.jpg"><img src="./img/low/studio_053.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_054.jpg"><img src="./img/low/studio_054.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_055.jpg"><img src="./img/low/studio_055.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_056.jpg"><img src="./img/low/studio_056.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_057.jpg"><img src="./img/low/studio_057.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_058.jpg"><img src="./img/low/studio_058.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_059.jpg"><img src="./img/low/studio_059.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_060.jpg"><img src="./img/low/studio_060.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_061.jpg"><img src="./img/low/studio_061.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_062.jpg"><img src="./img/low/studio_062.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_063.jpg"><img src="./img/low/studio_063.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_064.jpg"><img src="./img/low/studio_064.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_065.jpg"><img src="./img/low/studio_065.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_066.jpg"><img src="./img/low/studio_066.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_067.jpg"><img src="./img/low/studio_067.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_068.jpg"><img src="./img/low/studio_068.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_069.jpg"><img src="./img/low/studio_069.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_070.jpg"><img src="./img/low/studio_070.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_071.jpg"><img src="./img/low/studio_071.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_072.jpg"><img src="./img/low/studio_072.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_073.jpg"><img src="./img/low/studio_073.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_074.jpg"><img src="./img/low/studio_074.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_075.jpg"><img src="./img/low/studio_075.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_076.jpg"><img src="./img/low/studio_076.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_077.jpg"><img src="./img/low/studio_077.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_078.jpg"><img src="./img/low/studio_078.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_079.jpg"><img src="./img/low/studio_079.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_080.jpg"><img src="./img/low/studio_080.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_081.jpg"><img src="./img/low/studio_081.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_082.jpg"><img src="./img/low/studio_082.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_083.jpg"><img src="./img/low/studio_083.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_084.jpg"><img src="./img/low/studio_084.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_085.jpg"><img src="./img/low/studio_085.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_086.jpg"><img src="./img/low/studio_086.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_087.jpg"><img src="./img/low/studio_087.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_088.jpg"><img src="./img/low/studio_088.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_089.jpg"><img src="./img/low/studio_089.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_090.jpg"><img src="./img/low/studio_090.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_091.jpg"><img src="./img/low/studio_091.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_092.jpg"><img src="./img/low/studio_092.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_093.jpg"><img src="./img/low/studio_093.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_094.jpg"><img src="./img/low/studio_094.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_095.jpg"><img src="./img/low/studio_095.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_096.jpg"><img src="./img/low/studio_096.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_097.jpg"><img src="./img/low/studio_097.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_098.jpg"><img src="./img/low/studio_098.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_099.jpg"><img src="./img/low/studio_099.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_100.jpg"><img src="./img/low/studio_100.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_101.jpg"><img src="./img/low/studio_101.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_102.jpg"><img src="./img/low/studio_102.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_103.jpg"><img src="./img/low/studio_103.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_104.jpg"><img src="./img/low/studio_104.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_105.jpg"><img src="./img/low/studio_105.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_106.jpg"><img src="./img/low/studio_106.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_107.jpg"><img src="./img/low/studio_107.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_108.jpg"><img src="./img/low/studio_108.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_109.jpg"><img src="./img/low/studio_109.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_110.jpg"><img src="./img/low/studio_110.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_111.jpg"><img src="./img/low/studio_111.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_112.jpg"><img src="./img/low/studio_112.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_113.jpg"><img src="./img/low/studio_113.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_114.jpg"><img src="./img/low/studio_114.jpg" alt=""/></a>
-<a class="img" rel="dnb_wedding_2014" href="./img/med/studio_115.jpg"><img src="./img/low/studio_115.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_005.jpg"><img src="./img/low/studio_005.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_006.jpg"><img src="./img/low/studio_006.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_007.jpg"><img src="./img/low/studio_007.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_008.jpg"><img src="./img/low/studio_008.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_009.jpg"><img src="./img/low/studio_009.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_010.jpg"><img src="./img/low/studio_010.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_011.jpg"><img src="./img/low/studio_011.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_012.jpg"><img src="./img/low/studio_012.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_013.jpg"><img src="./img/low/studio_013.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_014.jpg"><img src="./img/low/studio_014.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_015.jpg"><img src="./img/low/studio_015.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_016.jpg"><img src="./img/low/studio_016.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_017.jpg"><img src="./img/low/studio_017.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_018.jpg"><img src="./img/low/studio_018.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_019.jpg"><img src="./img/low/studio_019.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_020.jpg"><img src="./img/low/studio_020.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_021.jpg"><img src="./img/low/studio_021.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_022.jpg"><img src="./img/low/studio_022.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_023.jpg"><img src="./img/low/studio_023.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_024.jpg"><img src="./img/low/studio_024.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_025.jpg"><img src="./img/low/studio_025.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_026.jpg"><img src="./img/low/studio_026.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_027.jpg"><img src="./img/low/studio_027.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_028.jpg"><img src="./img/low/studio_028.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_029.jpg"><img src="./img/low/studio_029.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_030.jpg"><img src="./img/low/studio_030.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_031.jpg"><img src="./img/low/studio_031.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_032.jpg"><img src="./img/low/studio_032.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_033.jpg"><img src="./img/low/studio_033.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_034.jpg"><img src="./img/low/studio_034.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_035.jpg"><img src="./img/low/studio_035.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_036.jpg"><img src="./img/low/studio_036.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_037.jpg"><img src="./img/low/studio_037.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_038.jpg"><img src="./img/low/studio_038.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_039.jpg"><img src="./img/low/studio_039.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_040.jpg"><img src="./img/low/studio_040.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_041.jpg"><img src="./img/low/studio_041.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_042.jpg"><img src="./img/low/studio_042.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_043.jpg"><img src="./img/low/studio_043.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_044.jpg"><img src="./img/low/studio_044.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_045.jpg"><img src="./img/low/studio_045.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_046.jpg"><img src="./img/low/studio_046.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_047.jpg"><img src="./img/low/studio_047.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_048.jpg"><img src="./img/low/studio_048.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_049.jpg"><img src="./img/low/studio_049.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_050.jpg"><img src="./img/low/studio_050.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_051.jpg"><img src="./img/low/studio_051.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_052.jpg"><img src="./img/low/studio_052.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_053.jpg"><img src="./img/low/studio_053.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_054.jpg"><img src="./img/low/studio_054.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_055.jpg"><img src="./img/low/studio_055.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_056.jpg"><img src="./img/low/studio_056.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_057.jpg"><img src="./img/low/studio_057.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_058.jpg"><img src="./img/low/studio_058.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_059.jpg"><img src="./img/low/studio_059.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_060.jpg"><img src="./img/low/studio_060.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_061.jpg"><img src="./img/low/studio_061.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_062.jpg"><img src="./img/low/studio_062.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_063.jpg"><img src="./img/low/studio_063.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_064.jpg"><img src="./img/low/studio_064.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_065.jpg"><img src="./img/low/studio_065.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_066.jpg"><img src="./img/low/studio_066.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_067.jpg"><img src="./img/low/studio_067.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_068.jpg"><img src="./img/low/studio_068.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_069.jpg"><img src="./img/low/studio_069.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_070.jpg"><img src="./img/low/studio_070.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_071.jpg"><img src="./img/low/studio_071.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_072.jpg"><img src="./img/low/studio_072.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_073.jpg"><img src="./img/low/studio_073.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_074.jpg"><img src="./img/low/studio_074.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_075.jpg"><img src="./img/low/studio_075.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_076.jpg"><img src="./img/low/studio_076.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_077.jpg"><img src="./img/low/studio_077.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_078.jpg"><img src="./img/low/studio_078.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_079.jpg"><img src="./img/low/studio_079.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_080.jpg"><img src="./img/low/studio_080.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_081.jpg"><img src="./img/low/studio_081.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_082.jpg"><img src="./img/low/studio_082.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_083.jpg"><img src="./img/low/studio_083.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_084.jpg"><img src="./img/low/studio_084.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_085.jpg"><img src="./img/low/studio_085.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_086.jpg"><img src="./img/low/studio_086.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_087.jpg"><img src="./img/low/studio_087.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_088.jpg"><img src="./img/low/studio_088.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_089.jpg"><img src="./img/low/studio_089.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_090.jpg"><img src="./img/low/studio_090.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_091.jpg"><img src="./img/low/studio_091.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_092.jpg"><img src="./img/low/studio_092.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_093.jpg"><img src="./img/low/studio_093.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_094.jpg"><img src="./img/low/studio_094.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_095.jpg"><img src="./img/low/studio_095.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_096.jpg"><img src="./img/low/studio_096.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_097.jpg"><img src="./img/low/studio_097.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_098.jpg"><img src="./img/low/studio_098.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_099.jpg"><img src="./img/low/studio_099.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_100.jpg"><img src="./img/low/studio_100.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_101.jpg"><img src="./img/low/studio_101.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_102.jpg"><img src="./img/low/studio_102.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_103.jpg"><img src="./img/low/studio_103.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_104.jpg"><img src="./img/low/studio_104.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_105.jpg"><img src="./img/low/studio_105.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_106.jpg"><img src="./img/low/studio_106.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_107.jpg"><img src="./img/low/studio_107.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_108.jpg"><img src="./img/low/studio_108.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_109.jpg"><img src="./img/low/studio_109.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_110.jpg"><img src="./img/low/studio_110.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_111.jpg"><img src="./img/low/studio_111.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_112.jpg"><img src="./img/low/studio_112.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_113.jpg"><img src="./img/low/studio_113.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_114.jpg"><img src="./img/low/studio_114.jpg" alt=""/></a>
+    <a class="img" rel="dnb_wedding_2014" href="./img/med/studio_115.jpg"><img src="./img/low/studio_115.jpg" alt=""/></a>
+  </div>
 
-</div>
+
+  <div id="credits"> 
+
+    <h2>Credits</h2>
+
+    <div><i>Wedding Gown:</i> <a href="http://www.robynroberts.co.za" target="_blank">Robyn Roberts Bridal Wear</a></div>
+    <div><i>Hair and Makeup:</i> <a href="mailto:c3makeup@yahoo.co.uk" target="_blank">Chantelle Craig</a></div>
+    <div><i>Floral Designer:</i> <a href="http://www.studiobloem.co.za" target="_blank">Tanya Odendaal</a></div>
+    <div><i>Videographer:</i> <a href="http://www.whitelines.co.za" target="_blank">White Lines</a></div>
+    <div><i>Photographer:</i> <a href="http://www.aliceswan.com" target="_blank">Alice Swan</a></div>
+    <div><i>Venue:</i> <a href="http://www.oliverock.co.za" target="_blank">Olive Rock</a></div>
+
+    <br><br>
+    <div> &#126;&#126;&#126; Happily ever after, the End. &#126;&#126;&#126; </div>
+  </div>
+
+
 
 </body>
 </html>
