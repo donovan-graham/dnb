@@ -34,13 +34,51 @@
 
     #gallery {
       text-align: center;
-      margin-bottom: 40px; 
+      font-size: 8px; /* 0.1em */
     }
 
     #credits {
       color: #555;
       text-align: center;
-      margin-bottom: 40px; 
+      margin: 40px auto; 
+    }
+
+
+    /* Credit: https://github.com/IanLunn/Hover */
+
+    a.img {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      position: relative;
+      overflow: hidden;
+    }
+
+    a.img:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      background: #f2938d;
+      height: 3px;
+      -webkit-transition-property: left, right;
+      transition-property: left, right;
+      -webkit-transition-duration: 0.25s;
+      transition-duration: 0.25s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+
+    a.img:hover:before, a.img:focus:before, a.img:active:before {
+      left: 0;
+      right: 0;
     }
 
     
@@ -85,6 +123,9 @@
 
 
   <style>
+
+    /* Credit: https://github.com/tobiasahlin/SpinKit */
+    
     #fancybox-loading div {
       background: none;
       position: absolute;
@@ -132,8 +173,6 @@
         box-shadow: 15px -15px #dfdfdf, 15px 15px #4f4d49, -15px 15px #dfdfdf, -15px -15px #4f4d49;
       }
     }
-
-
   </style>
 </head>
 <body>
